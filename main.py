@@ -4,7 +4,7 @@ import cvzone
 import face_recognition
 import numpy as np
 from datetime import datetime
-from timess import (count_duration, start_late_timer, count_late_time, start_left_timer, count_left_time,
+from timer import (count_duration, start_late_timer, count_late_time, start_left_timer, count_left_time,
                     count_left_time_total, total_time, stop_late_timer, delete_left_timer)
                     # (update_to_db_for_left, update_to_db_for_late, update_to_db_for_return, update_to_db_for_end)
 
